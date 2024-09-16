@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body,html{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+::selection{
+    background-color: brown;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .gallery{
+    display: grid;
+
+    grid-template-columns:repeat(auto-fit, minmax(230px , 1fr)) ;
+    gap:20px ;
+}
+.container .gallery img{
+    width: 100%;
+    border-radius: 20px;
+}
+.container .gallery img:hover{
+    opacity: .2;
+   
+    
+  }
+  .container .gallery :hover{
+    background-color: #4a0000;
+    transition: .2s ease;
+    border-radius: 20px;
+  }
+
