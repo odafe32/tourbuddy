@@ -7,17 +7,18 @@
 <?php
 $gallery = [
     [
+        'link_image' => 'assets/images/Destination/image18.jpg',
+        'image' => 'assets/images/Destination/image18.jpg',
+        'alt' => 'National Museum of Unity',
+        'title' => 'National Museum of Unity',
+    ],
+    [
         'link_image' => 'assets/images/Destination/image2.jpg',
         'image' => 'assets/images/Destination/image2.jpg',
         'alt' => 'Ikirike Hill and Cliff',
         'title' => 'Ikirike Hill and Cliff',
     ],
-    [
-        'link_image' => 'assets/images/Destination/image5.jpg',
-        'image' => 'assets/images/Destination/image5.jpg',
-        'alt' => 'Unity Park',
-        'title' => 'Unity Park',
-    ],
+
     [
         'link_image' => 'assets/images/Destination/image4.jpg',
         'image' => 'assets/images/Destination/image4.jpg',
@@ -35,6 +36,72 @@ $gallery = [
         'image' => 'assets/images/Destination/image7.jpg',
         'alt' => 'Awhum Waterfall',
         'title' => 'Awhum Waterfall',
+    ],
+    [
+        'link_image' => 'assets/images/Destination/image8.jpg',
+        'image' => 'assets/images/Destination/image8.jpg',
+        'alt' => 'Akwuke Beach',
+        'title' => 'Akwuke Beach',
+    ],
+    [
+        'link_image' => 'assets/images/Destination/image9.jpg',
+        'image' => 'assets/images/Destination/image9.jpg',
+        'alt' => 'Michael Okpara Square',
+        'title' => 'Michael Okpara Square',
+    ],
+    [
+        'link_image' => 'assets/images/Destination/image10.jpg',
+        'image' => 'assets/images/Destination/image10.jpg',
+        'alt' => 'Ngwo Pine Forest',
+        'title' => 'Ngwo Pine Forest',
+    ],
+    [
+        'link_image' => 'assets/images/Destination/image11.jpg',
+        'image' => 'assets/images/Destination/image11.jpg',
+        'alt' => 'Milliken Hill',
+        'title' => 'Milliken Hill',
+    ],
+    [
+        'link_image' => 'assets/images/Destination/image12.jpg',
+        'image' => 'assets/images/Destination/image12.jpg',
+        'alt' => 'Oji Alum',
+        'title' => 'Oji Alum',
+    ],
+    [
+        'link_image' => 'assets/images/Destination/image13.jpg',
+        'image' => 'assets/images/Destination/image13.jpg',
+        'alt' => 'Obialuohuu Waterfall',
+        'title' => 'Obialuohuu Waterfall',
+    ],
+    [
+        'link_image' => 'assets/images/Destination/image14.jpg',
+        'image' => 'assets/images/Destination/image14.jpg',
+        'alt' => 'Polo Mall',
+        'title' => 'Polo Mall',
+    ],
+    [
+        'link_image' => 'assets/images/Destination/image15.jpg',
+        'image' => 'assets/images/Destination/image15.jpg',
+        'alt' => 'Okpoku Spring',
+        'title' => 'Okpoku Spring',
+    ],
+    [
+        'link_image' => 'assets/images/Destination/image16.jpg',
+        'image' => 'assets/images/Destination/image16.jpg',
+        'alt' => 'Orsu Waterfall',
+        'title' => 'Orsu Waterfall',
+    ],
+    [
+        'link_image' => 'assets/images/Destination/image17.jpg',
+        'image' => 'assets/images/Destination/image17.jpg',
+        'alt' => 'Nike Lake',
+        'title' => 'Nike Lake',
+    ],
+    [
+        'link_image' => 'assets/images/Destination/image5.jpg',
+        'image' => 'assets/images/Destination/image5.jpg',
+        'alt' => 'Unity Park',
+        'title' => 'Unity Park',
     ],
 ];
 ?>
@@ -62,6 +129,32 @@ $gallery = [
         object-fit: cover;
 
         border-radius: 5px;
+        transition: 0.3s ease-in
+    }
+
+
+    .gallery a img:hover {
+        transform: scale(0.90);
+        /* Zoom out the image */
+    }
+
+
+    .gallery a .title {
+        display: none;
+        /* Hidden by default */
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        padding: 5px 10px;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .gallery a:hover .title {
+        display: block;
+        /* Show title on hover */
     }
 
     @media screen and (max-width: 768px) {
@@ -79,6 +172,22 @@ $gallery = [
 
             height: auto;
         }
+    }
+
+    @media screen and (max-width:450px) {
+        .gallery {
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+
+    }
+
+    @media screen and (max-width:350px) {
+        .gallery {
+            grid-template-columns: repeat(1, 1fr);
+
+        }
+
     }
 </style>
 {{-- end css --}}

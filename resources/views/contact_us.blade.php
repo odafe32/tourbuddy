@@ -1,147 +1,206 @@
 @extends('layouts/main_layout')
 
 @section('content')
+    <div class="main-wrapper">
+        {{-- intro --}}
+        <div class="breadcrumb-section wf-section">
+            <div class="breadcrumb-background">
+                <div class="breadcrumb-gap">
+                    <div class="container display-flex align-items-center text-center w-container">
+                        <div class="breadcrumb-content">
+                            <div data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1beb" class="breadcrumb-tag">Contact</div>
+                            <h1 data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1bed" class="breadcrumb-title"> Get Connected
 
-<div class="hero-wrapper page-heading">
-    <div class="container hero-container center">
-        <div data-w-id="32ae9b0d-927c-1bbf-aa56-10f981980ee1" class="hero-info center">
-            <h1 data-w-id="32ae9b0d-927c-1bbf-aa56-10f981980ee2" class="heading">Contact Us<br/></h1>
-            <div class="breadcrumbs dark">
-                <a href="{{url('/')}}" class="breadcrumbs-link">Home</a>
-                <div class="breadcrumbs-arrow"></div>
-                <div class="subpage-title">Contact Us</div>
+
+
+
+                            </h1>
+                            <div data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1bef" class="breadcrumb-text">
+                                Explore a world of breathtaking destinations with Tourbuddy. From serene beaches and
+                                majestic mountains to vibrant cities and historical landmarks, we offer travel packages
+                                that
+                                take you to the most captivating places in Enugu.
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="breadcrumb-element-1"><img
+                            src="{{ url('assets/images/1/63b3b45bc096181bd82b7146_hero-element-1.svg') }}" loading="lazy"
+                            alt="Hero Element" /></div>
+                    <div class="breadcrumb-element-2"><img
+                            src="{{ url('assets/images/1/63be4b0dac4c2a533ff151e1_breadcrumb-element-2.svg') }}"
+                            loading="lazy" alt="Banner Element Image" /></div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="section gray wf-section">
-    <div class="container">
-        <div class="form-content contact-us">
-            <div class="form-block-contact">
-                <div class="w-layout-grid grid-content-form">
-                    <div id="w-node-f26c4f05-20f2-71af-851e-0027dbd84729-5c5e3331" class="div-block-second">
-                        <h4 class="features-title">Reach Us!<br/></h4>
-                        <p>Drop us your message.</p>
-                    </div>
-                    <div>
-                        <div class="contact-info-block"><img src="{{url('assets/images/all/5f0637e54f711c35742f1618_icons8-marker-90.png')}}" width="22" alt="" class="info-icon" />
-                            <div>
-                                9494 Southwest freeway 450B, 77074.
-									<br>Houston, Texas.
+
+        <div class="contact-section wf-section">
+            <div class="section-gap">
+                <div class="container w-container">
+                    <div class="contact-block">
+                        <!-- Left Side: Contact Information -->
+                        <div class="contact-left">
+                            <div class="section-wrapper">
+                                <div class="section-block">
+                                    <div class="section-tag-block">
+                                        <div class="hero-tag">Contact info</div>
+                                    </div>
+                                    <h1 class="section-title max-width-371">Get in touch</h1>
+                                    <p class="section-text text-gray">We’d love to hear from you. Our friendly team is
+                                        always
+                                        here to chat.</p>
+                                </div>
                             </div>
+                            <ul role="list" class="contact-list">
+                                <li class="contact-list-item">
+                                    <div class="contact-icon">
+                                        <img src="{{ url('assets/images/Destination/mail.svg') }}" alt="Mail Icon" />
+                                    </div>
+                                    <div class="contact-content">
+                                        <div class="contact-title">Chat to us</div>
+                                        <div class="contact-subtitle">Our friendly team is here to help.</div>
+                                        <a href="mailto:" class="contact-info-link">admin@tourbuddy</a>
+
+                                    </div>
+                                </li>
+                                <li class="contact-list-item">
+                                    <div class="contact-icon">
+                                        <img src="{{ url('assets/images/Destination/office.svg') }}" alt="Location Icon" />
+                                    </div>
+                                    <div class="contact-content">
+                                        <div class="contact-title">Office</div>
+                                        <div class="contact-subtitle">Come say hello at our office HQ.</div>
+                                        <div class="contact-info-text">914b Umuezebi Street New Haven, Enugu, Nigeria
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="contact-list-item">
+                                    <div class="contact-icon">
+                                        <img src="{{ url('assets/images/Destination/phone.svg') }}" alt="Phone Icon" />
+                                    </div>
+                                    <div class="contact-content">
+                                        <div class="contact-title">Phone</div>
+                                        <div class="contact-subtitle">Our friendly team is here to help.</div>
+                                        <a href="tel:+" class="contact-info-link">+234 810 995 2138</a>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="contact-info-block"><img src="{{url('assets/images/all/5f0637afcebb0e592b3f8028_icons8-email-send-90.png')}}" width="22" alt="" class="info-icon" />
-                            <div>admin@transitsglobalcharity.org <br> transitsgcharity@gmail.com</div>
-                        </div>
-                        <div class="contact-info-block"><img src="{{url('assets/images/all/5f06376e56cba8e92f2d2615_icons8-add-phone-90.png')}}" width="22" alt="" class="info-icon" />
-                            <div>+1 346 393 0398</div>
+
+                        <!-- Right Side: Contact Form -->
+                        <div class="contact-right">
+                            <div class="contact-form-title">Leave a comment</div>
+                            <div id="Contact-Form" class="contact-form-block w-form">
+                                <form id="contact-form" class="contact-form" method="POST"
+                                    action="{{ url('contact-us') }}">
+                                    @csrf
+                                    <div class="form-group">
+                                        <input type="text" class="input-default-style w-input" name="name"
+                                            placeholder="Name*" required />
+                                        <input type="email" class="input-default-style w-input" name="email"
+                                            placeholder="Email*" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="input-default-style w-input" name="phone"
+                                            placeholder="Phone*" required />
+                                        <input type="text" class="input-default-style w-input" name="subject"
+                                            placeholder="Subject*" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" class="input-default-style default-text-area w-input" placeholder="Write here" required></textarea>
+                                    </div>
+                                    <div class="form-button-block">
+                                        <button type="submit"
+                                            class="button-default background-orange w-button">Submit</button>
+                                    </div>
+                                </form>
+                                <div class="w-form-done">
+                                    <div>Thank you! Your submission has been received!</div>
+                                </div>
+                                <div class="w-form-fail">
+                                    <div>Oops! Something went wrong while submitting the form.</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="form-divider"></div>
-                <div class="w-form">
-                    <form id="contact-form" class="left-form">
-                        <div class="w-layout-grid grid-contact">
-                            <div id="w-node-_7c100892-9447-c016-8698-709aef7ca230-5c5e3331" class="w-clearfix">
-                                <label for="Name" class="field-label-alternative contact-us-field gray">Name:</label>
-                                <input type="text" class="text-field-contact w-input" maxlength="256" name="name" placeholder="Enter your name" id="Name" required="" />
-                            </div>
-                            <div id="w-node-_7c100892-9447-c016-8698-709aef7ca230-5c5e3331" class="w-clearfix">
-                                <label for="Email-3" class="field-label-alternative contact-us-field gray">Email:</label>
-                                <input type="email" class="text-field-contact w-input" maxlength="256" required name="email" placeholder="Enter your email" id="Email-3" />
-                            </div>
-                            <div id="w-node-_7c100892-9447-c016-8698-709aef7ca234-5c5e3331" class="w-clearfix">
-                                <label for="message" class="field-label-alternative contact-us-field gray">Message:</label>
-                                <textarea id="message" required name="message" maxlength="5000" placeholder="Share your message here." class="text-field-contact message w-input"></textarea>
-                            </div>
-                            <button type="submit" id="w-node-_7c100892-9447-c016-8698-709aef7ca238-5c5e3331" class="contact-submit button line w-button">Send Message</butoon>
-                        </div>
-                        <div class="center-button-block"></div>
-                    </form>
-                    <div class="success-message w-form-done">
-                        <div>Thank you! Your message has been sent!</div>
-                    </div>
-                </div>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.4327071097337!2d-95.54297932550989!3d29.678232035830785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c29f58fe342f%3A0xef539e358a45f41d!2s9494%20Southwest%20Fwy%20%23450b%2C%20Houston%2C%20TX%2077074%2C%20USA!5e0!3m2!1sen!2sng!4v1685468894581!5m2!1sen!2sng" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-</div>
+
+    {{-- start newsletter --}}
+    @include('common/news_letter')
+    {{-- end newsletter --}}
 
 
+    <script>
+        $(document).ready(function() {
 
+            // Update the form selector to match the new form structure
+            $('form#wf-form-Contact-Form').submit(function(e) {
+                e.preventDefault(); // Prevent the default form submission
+                var formData = new FormData(this);
 
-<script>
-$(document).ready(function () {
-	
-	$('form#contact-form').submit(function(e){
-		e.preventDefault();    
-		var formData = new FormData(this);
+                $.post({
+                    url: "{{ url('contact-us') }}", // Laravel route to handle the form submission
+                    data: formData,
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    beforeSend: function() {
+                        // Disable the form fields and update the button text to indicate processing
+                        $('form#wf-form-Contact-Form input, form#wf-form-Contact-Form textarea')
+                            .prop('disabled', true);
+                        $(".button-default").html("<i>Please wait...</i>").prop('disabled',
+                            true);
+                    },
+                    success: function(response) {
+                        // Re-enable the form fields and restore the button text
+                        $('form#wf-form-Contact-Form input, form#wf-form-Contact-Form textarea')
+                            .prop('disabled', false);
+                        $(".button-default").html("Submit").prop('disabled', false);
 
-		$.post({
-			url: "{{url('contact-us')}}",
-			data: formData,
-			cache: false,
-			contentType: false,
-			processData: false,
-			beforeSend :function(){
-				$('form#contact-form input').prop('disabled', true);
-				$('form#contact-form textarea').prop('disabled', true);
-				$(".contact-submit").html("<i>Please wait...</i>");
-				$(".contact-submit").attr("disabled","");
-				$(".contact-submit").removeAttr("type");           
-			},
-			success: function (response) {
-				$('form#contact-form input').prop('disabled', false);
-				$('form#contact-form textarea').prop('disabled', false);
-				$(".contact-submit").html("Send Message");
-				$(".contact-submit").removeAttr("disabled");
-				$(".contact-submit").attr("type","submit");
-				// console.log(response);
+                        if ($.isEmptyObject(response.error)) {
+                            // Handle the successful submission
+                            switch (response) {
+                                case 'success':
+                                    $('form#wf-form-Contact-Form').css('display',
+                                        'none'); // Hide the form
+                                    $('.w-form-done').css('display',
+                                        'block'); // Show the success message
+                                    break;
+                                default:
+                                    iziToast.error({
+                                        title: response,
+                                        position: 'topCenter',
+                                        theme: 'light',
+                                        timeout: 20000,
+                                        progressBar: false,
+                                    });
+                            }
+                        } else {
+                            // Print validation error messages if any
+                            printErrorMsg(response.error);
+                        }
+                    }
+                });
 
-				if($.isEmptyObject(response.error)){
-					// console.log(response);
-					switch(response) {
-						case 'success':
-							$('form#contact-form').css('display', 'none');
-							$('.success-message').css('display', 'block');
-							break;
-						default:
-							iziToast.error({
-								title: response,
-								position: 'topCenter',
-								theme: 'light',
-								timeout: 20000,
-								progressBar: false,
-							});
-					}
+                function printErrorMsg(msg) {
+                    var errorText = "";
+                    $.each(msg, function(key, value) {
+                        errorText += '<li>' + value + '</li>';
+                    });
 
-				}else{
-					printErrorMsg(response.error);
-				}
-			}
-		})
-
-		function printErrorMsg (msg) {
-			var errorText = "";
-			$.each( msg, function( key, value ) {
-				errorText += '<li>'+value+'</li>';
-			});
-
-			iziToast.error({
-				title: errorText,
-				position: 'topCenter',
-				theme: 'light',
-				timeout: 20000,
-				progressBar: false,
-
-			});
-		}
-	})
-
-
-
-
-})
-</script>
+                    // Display error messages using iziToast
+                    iziToast.error({
+                        title: errorText,
+                        position: 'topCenter',
+                        theme: 'light',
+                        timeout: 20000,
+                        progressBar: false,
+                    });
+                }
+            });
+        });
+    </script>
 @endsection

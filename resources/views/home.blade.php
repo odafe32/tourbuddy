@@ -194,5 +194,8 @@
     {{-- start newsletter --}}
     @include('common/news_letter')
     {{-- end newsletter --}}
+
+
+
     </div>
 @endsection

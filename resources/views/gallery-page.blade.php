@@ -10,9 +10,13 @@
                         <div class="breadcrumb-content">
                             <div data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1beb" class="breadcrumb-tag">Gallery</div>
                             <h1 data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1bed" class="breadcrumb-title">Our Gallery</h1>
-                            <div data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1bef" class="breadcrumb-text">Travor is one of
-                                the most popular Travel agency for those who want to explore the world and try to make
-                                adventure</div>
+                            <div data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1bef" class="breadcrumb-text">
+                                Dive into our gallery to experience the world through the lens of our travelers. At
+                                Tourbuddy, we capture the essence of adventure and exploration in every photo. Let these
+                                images
+                                inspire your next adventure!
+                            </div>
+
                         </div>
                     </div>
                     <div class="breadcrumb-element-1"><img
@@ -29,5 +33,9 @@
 
         @include('gallery_component/gallery')
         {{-- END GALLERY --}}
+
+        {{-- start newsletter --}}
+        @include('common/news_letter')
+        {{-- end newsletter --}}
     </div>
 @endsection

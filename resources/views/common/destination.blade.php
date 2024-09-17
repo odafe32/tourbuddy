@@ -4,7 +4,7 @@
 
 $destinations = [
     [
-        'link' => '/',
+        'link' => 'destination_route/hill',
         'title' => 'Ikirike Hill and Cliff',
         'image' => url('assets/images/Destination/image2.jpg'),
         'rating' => 4.8,
@@ -12,7 +12,7 @@ $destinations = [
         'price' => 110,
     ],
     [
-        'link' => '/',
+        'link' => 'destination_route/unitypark',
         'title' => 'Unity Park ',
         'image' => url('assets/images/Destination/image5.jpg'),
         'rating' => 4.8,
@@ -20,7 +20,7 @@ $destinations = [
         'price' => 170,
     ],
     [
-        'link' => '/',
+        'link' => 'destination_route/adadadam',
         'title' => ' Adada Dam',
         'image' => url('assets/images/Destination/image4.jpg'),
         'rating' => 4.6,
@@ -28,7 +28,7 @@ $destinations = [
         'price' => 210,
     ],
     [
-        'link' => '/',
+        'link' => 'destination_route/awhumwaterfall',
         'title' => 'Awhum Waterfall',
         'image' => url('assets/images/Destination/image7.jpg'),
         'rating' => 4.8,
@@ -49,7 +49,7 @@ $destinations = [
         <div role="list" class="destination-list w-dyn-items">
             @foreach ($destinations as $destination)
                 <div role="listitem" class="destination-item w-dyn-item">
-                    <div data-w-id="043e5690-3e97-71a2-1284-e04494be20e2" style="opacity:0"
+                    <div data-w-id="043e5690-3e97-71a2-1284-e04494be20e2" style="opacity:1"
                         class="destination-single-item">
                         <a href="{{ $destination['link'] }}" class="destination-image-link-block w-inline-block">
                             <img src="{{ $destination['image'] }}" loading="lazy" alt="{{ $destination['title'] }}"
@@ -76,7 +76,7 @@ $destinations = [
                                 <div>/</div>
                                 <div class="price-small-text">person</div>
                             </div>
-                            <a href="{{ url('book-now') }}" class="tiny-button button w-button">Book</a>
+                            <a href="{{ url('bookings') }}" class="tiny-button button w-button">Book</a>
                         </div>
                     </div>
                 </div>

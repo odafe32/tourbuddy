@@ -1,7 +1,7 @@
     <?php
     $discount = [
         [
-            'dlink' => '/',
+            'dlink' => 'bookings',
             'image' => url('assets/images/Destination/image13.jpg'),
             'discount' => '35% Off',
             'duration' => '4 Day 3 Night',
@@ -12,7 +12,7 @@
             'original_price' => '245',
         ],
         [
-            'dlink' => '/',
+            'dlink' => 'bookings',
             'image' => url('assets/images/Destination/image14.jpg'),
             'discount' => '25% Off',
             'duration' => '6 Day 5 Night',
@@ -56,7 +56,7 @@
                                 </div>
                                 <div>/person</div>
                             </div>
-                            <a href="{{ url('book-now') }}" class="tiny-button secondary-outline-button w-button">
+                            <a href="{{ url('bookings') }}" class="tiny-button secondary-outline-button w-button">
                                 Book
                             </a>
                         </div>

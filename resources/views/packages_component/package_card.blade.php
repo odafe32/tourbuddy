@@ -1,17 +1,17 @@
   <?php
   $packages = [
       [
-          'link' => '#',
+          'link' => 'destination_route/hill',
           'alt' => 'Ikirike Hill and Cliff Package',
           'image' => 'assets/images/Destination/image2.jpg',
           'title' => 'Ikirike Hill and Cliff Package',
           'days' => '8 Day 7 Night',
           'rating' => 4.8,
           'price' => 510,
-          'package_url' => 'tour-packages/france-tour-package.html',
+          'package_url' => 'destination_route/hill',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/unitypark',
   
           'alt' => 'Unity Park Package',
           'image' => 'assets/images/Destination/image5.jpg',
@@ -23,7 +23,7 @@
       ],
   
       [
-          'link' => '#',
+          'link' => 'destination_route/adadadam',
   
           'alt' => 'Adada Dam Package',
           'image' => 'assets/images/Destination/image4.jpg',
@@ -34,7 +34,7 @@
           'package_url' => '',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/awhumwaterfall',
           'alt' => 'Awhum Waterfall Package',
           'image' => 'assets/images/Destination/image7.jpg',
           'title' => 'Awhum Waterfall Package',
@@ -50,10 +50,10 @@
           'days' => '5 Day 4 Night',
           'rating' => 4.8,
           'price' => 110,
-          'link' => '/',
+          'link' => 'destination_route/iyinzu',
       ],
       [
-          'link' => '/',
+          'link' => 'destination_route/michaelokpara',
           'alt' => 'Michael Okpara Square Package',
           'image' => 'assets/images/Destination/image9.jpg',
           'title' => 'Michael Okpara Square Package',
@@ -63,7 +63,7 @@
           'package_url' => '/',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/akwukebeach',
           'alt' => 'Akwuke Beach Package',
           'image' => 'assets/images/Destination/image8.jpg',
           'title' => 'Akwuke Beach Package',
@@ -73,7 +73,7 @@
           'package_url' => '',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/ojialum',
           'alt' => 'Oji Alum Package',
           'image' => 'assets/images/Destination/image12.jpg',
           'title' => '. Oji Alum Package',
@@ -83,7 +83,7 @@
           'package_url' => '',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/ngwopine',
   
           'alt' => 'Ngwo Pine Forest Package',
           'image' => 'assets/images/Destination/image10.jpg',
@@ -94,7 +94,7 @@
           'package_url' => '',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/millikenhill',
           'alt' => 'Milliken Hill Package',
           'image' => 'assets/images/Destination/image11.jpg',
           'title' => 'Milliken Hill Package',
@@ -104,7 +104,7 @@
           'package_url' => 'tour-packages/france-tour-package.html',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/obialuohuu',
           'alt' => 'Obialuohuu Waterfall Package',
           'image' => 'assets/images/Destination/image13.jpg',
           'title' => 'Obialuohuu Waterfall Package',
@@ -114,7 +114,7 @@
           'package_url' => 'tour-packages/france-tour-package.html',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/polomall',
           'alt' => ' Polo Mall Package',
           'image' => 'assets/images/Destination/image14.jpg',
           'title' => ' Polo Mall Package',
@@ -124,7 +124,7 @@
           'package_url' => 'tour-packages/france-tour-package.html',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/okpokuspring',
           'alt' => ' Okpoku Spring Package',
           'image' => 'assets/images/Destination/image15.jpg',
           'title' => ' Okpoku Spring Package',
@@ -134,7 +134,7 @@
           'package_url' => 'tour-packages/france-tour-package.html',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/orsuwaterfall',
           'alt' => ' Orsu Waterfall Package',
           'image' => 'assets/images/Destination/image16.jpg',
           'title' => ' Orsu Waterfall Package',
@@ -144,7 +144,7 @@
           'package_url' => 'tour-packages/france-tour-package.html',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/nikelake',
           'alt' => ' Nike Lake Package',
           'image' => 'assets/images/Destination/image17.jpg',
           'title' => ' Nike Lake Package',
@@ -154,7 +154,7 @@
           'package_url' => 'tour-packages/france-tour-package.html',
       ],
       [
-          'link' => '#',
+          'link' => 'destination_route/nationalmuseum',
           'alt' => ' National Museum of Unity Package',
           'image' => 'assets/images/Destination/image18.jpg',
           'title' => ' National Museum of Unity Package',

@@ -1,7 +1,7 @@
 <?php
 $packages = [
     [
-        'link' => '#',
+        'link' => 'destination_route/nationalmuseum',
         'alt' => ' National Museum of Unity Package',
         'image' => 'assets/images/Destination/image18.jpg',
         'title' => ' National Museum of Unity Package',
@@ -17,10 +17,10 @@ $packages = [
         'days' => '5 Day 4 Night',
         'rating' => 4.8,
         'price' => 110,
-        'link' => '/',
+        'link' => 'destination_route/iyinzu',
     ],
     [
-        'link' => '/',
+        'link' => 'destination_route/michaelokpara',
         'alt' => 'Michael Okpara Square Package',
         'image' => 'assets/images/Destination/image9.jpg',
         'title' => 'Michael Okpara Square Package',
@@ -30,7 +30,7 @@ $packages = [
         'package_url' => '/',
     ],
     [
-        'link' => '#',
+        'link' => 'destination_route/akwukebeach',
         'alt' => 'Akwuke Beach Package',
         'image' => 'assets/images/Destination/image8.jpg',
         'title' => 'Akwuke Beach Package',
@@ -40,7 +40,7 @@ $packages = [
         'package_url' => '',
     ],
     [
-        'link' => '#',
+        'link' => 'destination_route/ojialum',
         'alt' => 'Oji Alum Package',
         'image' => 'assets/images/Destination/image12.jpg',
         'title' => '. Oji Alum Package',
@@ -50,7 +50,7 @@ $packages = [
         'package_url' => '',
     ],
     [
-        'link' => '#',
+        'link' => 'destination_route/ngwopine',
 
         'alt' => 'Ngwo Pine Forest Package',
         'image' => 'assets/images/Destination/image10.jpg',
@@ -61,7 +61,7 @@ $packages = [
         'package_url' => '',
     ],
     [
-        'link' => '#',
+        'link' => 'destination_route/millikenhill',
         'alt' => 'Milliken Hill Package',
         'image' => 'assets/images/Destination/image11.jpg',
         'title' => 'Milliken Hill Package',
@@ -72,7 +72,7 @@ $packages = [
     ],
 
     [
-        'link' => '#',
+        'link' => 'destination_route/unitypark',
 
         'alt' => 'Unity Park Package',
         'image' => 'assets/images/Destination/image5.jpg',
@@ -85,3 +85,39 @@ $packages = [
 ];
 
 ?>
+
+
+
+
+@foreach ($packages as $package)
+    <div class="package-single-slider w-slide">
+        <div class="package-list-wrapper w-dyn-list">
+            <div role="list" class="package-list-slider w-dyn-items">
+                <div role="listitem" class="package-item w-dyn-item">
+                    <div data-w-id="af83a328-d9af-a8c4-75ba-dcd853ca476f" style="opacity:1" class="package-single-item">
+                        <a href="{{ url($package['link']) }}" class="package-link-block w-inline-block"> <img
+                                src="{{ url($package['image']) }}" loading="lazy" alt="{{ $package['alt'] }}"
+                                class="image-cover" /></a>
+                        <div class="package-content"> <a href="{{ url($package['link']) }}"
+                                class="package-title">{{ $package['title'] }}</a>
+                            <div class="package-days-text">{{ $package['days'] }}</div>
+                            <div class="package-separator"></div>
+                            <div class="package-content-bottom">
+                                <div class="package-review-block"> <img
+                                        src="{{ url('assets/images/1/63b54936077974bdd70c95bc_rating.svg') }}"
+                                        loading="lazy" alt="Rating" />
+                                    <div>{{ $package['rating'] }}</div>
+                                </div>
+                                <div class="package-price">
+                                    <div>Start from <span class="text-orange">$</span>
+                                    </div>
+                                    <div class="text-orange">{{ $package['price'] }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endforeach

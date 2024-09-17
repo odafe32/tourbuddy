@@ -9,11 +9,15 @@
                 <div class="breadcrumb-gap">
                     <div class="container display-flex align-items-center text-center w-container">
                         <div class="breadcrumb-content">
-                            <div data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1beb" class="breadcrumb-tag">Packages</div>
-                            <h1 data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1bed" class="breadcrumb-title">Our Package</h1>
-                            <div data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1bef" class="breadcrumb-text">Travor is one of
-                                the most popular Travel agency for those who want to explore the world and try to make
-                                adventure</div>
+                            <div data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1beb" class="breadcrumb-tag">Destination</div>
+                            <h1 data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1bed" class="breadcrumb-title">Our Destinations
+                            </h1>
+                            <div data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1bef" class="breadcrumb-text">
+                                Explore a world of breathtaking destinations with Tourbuddy. From serene beaches and
+                                majestic mountains to vibrant cities and historical landmarks, we offer travel packages that
+                                take you to the most captivating places in Enugu.
+                            </div>
+
                         </div>
                     </div>
                     <div class="breadcrumb-element-1"><img

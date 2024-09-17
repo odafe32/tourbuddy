@@ -12,12 +12,14 @@
                                 Packages
                             </div>
                             <h1 data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1bed" class="breadcrumb-title">
-                                Our Package
+                                Our Tour Packages
                             </h1>
                             <div data-w-id="cb23fd55-3014-a176-e8a2-e8480bfd1bef" class="breadcrumb-text">
-                                Travor is one of the most popular Travel agency for those
-                                who want to explore the world and try to make adventure
+                                At Tourbuddy, we offer a variety of exciting travel packages designed for every kind of
+                                traveler. Whether you're seeking adventure, relaxation, or cultural immersion, our packages
+                                are tailored to provide you with unforgettable experiences.
                             </div>
+
                         </div>
                     </div>
                     <div class="breadcrumb-element-1">
@@ -82,7 +84,7 @@
             spaceBetween: 30,
             loop: true,
             autoplay: {
-                delay: 4000,
+                delay: 6000,
                 disableOnInteraction: true,
             },
             navigation: {
